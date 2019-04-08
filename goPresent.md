@@ -32,3 +32,7 @@ Some Text
 Run with *present*.
 
 Doc [Package present](https://godoc.org/golang.org/x/tools/present).
+
+> Es muy importante entrar desde la URL desde la terminal para que el código de Golang compile correctamente.
+
+[Go Present - Youtube](https://www.youtube.com/watch?v=83JBmS8WpHM)
