@@ -6,6 +6,26 @@ Web Page [golang.org](https://golang.org)
 Slack [gophers.slack.com](https://gophers.slack.com)
 Twitter [@golang](https://twitter.com/golang)
 
+## Instalacion
+
+> Se recomienda usar Ubuntu o cualquier otro Linux ya que el rendimiento es mejor en este entorno.
+
+Entrar en [https://golang.org/dl/](https://golang.org/dl/) y descargar la imagen.
+
+```
+tar -C /usr/local -xzf go1.12.5.linux-amd64.tar.gz
+```
+
+**Variables de entorno**
+
+En el archivo `~/.bashrc` agregar las siguientes variables.
+```
+export GOROOT=/usr/lib/go
+export GOPATH=/$HOME/go
+export GOBIN=$GOPATH/bin
+export PATH=$GOROOT/bin:$GOBIN:$PATH
+```
+
 ## GoDoc
 - `go doc fmt`
 - `go doc fmt Printf`
@@ -58,10 +78,7 @@ Doc [Package present](https://godoc.org/golang.org/x/tools/present).
 Comando para instalar la librería. Es importante tener seteado *GOBIN* correctamente.
 > go get -v -u golang.org/x/tour
 
-Correr con *tour*. (El cual es el que está almacenado en la carpeta *bin* del path de go.
-
-https://gohugo.io](https://gohugo.io) Esta es la URL oficial de la página.
-
+Correr con `tour`. (El cual es el que está almacenado en la carpeta *bin* del path de go.
 
 ## Hugo
 
